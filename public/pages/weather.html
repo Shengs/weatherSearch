@@ -1,0 +1,25 @@
+<div class="well">
+    {{location}} in next 
+    <a href="#/weather/2" type="button" class=" btn btn-default" ng-class="{'disabled': days == '2'}">2</a>
+    <a href="#/weather/5" type="button" class="btn btn-default" ng-class="{'disabled': days == '5'}">5</a>
+    <a href="#/weather/7" type="button" class="btn btn-default" ng-class="{'disabled': days == '7'}">7</a>
+    days ...
+    <a href="#/" type="button" class="btn btn-success-outline pull-right"><i class="fa fa-backward" style="font-size:150%;"></i></a>
+</div>
+
+
+<hr>
+
+<div ng-repeat="w in weatherResult.list">
+
+    <weather-result weather-day = 'w'>
+    
+    </weather-result>
+    
+</div>
+
+
+
+
+
+

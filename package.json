@@ -1,0 +1,27 @@
+{
+  "name": "weathercast",
+  "version": "1.0.0",
+  "description": "A single page weatehr forecast app build with angularjs.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shengs/weatherCast.git"
+  },
+  "keywords": [
+    "weather",
+    "forecast"
+  ],
+  "author": "Shiheng Zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shengs/weatherCast/issues"
+  },
+  "homepage": "https://github.com/Shengs/weatherCast#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

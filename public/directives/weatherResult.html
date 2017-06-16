@@ -1,0 +1,12 @@
+<div class="panel panel-info">
+        <div class="panel-heading">{{toDate(w.dt)}}</div>
+        <div class="panel-body">
+            <div>
+                <ul ng-repeat="(time, t) in w.temp">
+                    <li>{{time.toUpperCase()}}: {{toC(t)}} °C, {{toF(t)}} °F.</li>
+                </ul>
+            </div>
+            <br>
+            <div>There will be {{w.weather[0].main.toLowerCase()}}, and to be more specifically it will have {{w.weather[0].description}}. The wind will be {{w.speed}} mph.</div>
+        </div>
+</div>

@@ -1,0 +1,36 @@
+/* Header Position */
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+}
+
+
+/* Animation Word */
+#adword {
+    text-align:center;
+    text-transform:uppercase;
+    color:white;
+}
+
+/* Center AD Animation */
+
+#animation {
+    background-image:url(img/cloud.png);
+    background-position: 0 0px;
+    background-repeat: repeat-x;
+    
+    animation: bgAnimation 40s linear infinite;
+}
+
+/* Days Button Color*/
+.disabled {
+    background-color:#d9edf7;
+}
+
+@keyframes bgAnimation {
+    from {background-position: 0 0;}
+    to {background-position:100% 0;}
+}
